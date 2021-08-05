@@ -1,0 +1,30 @@
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.contact input {
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin: 10px 0px;
+    border: 1px solid rgb(118, 118, 118);
+}
+
+.contact textarea {
+    resize: none;
+    height: 100px;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+.contact button {
+    cursor: pointer;
+    padding: 10px;
+}

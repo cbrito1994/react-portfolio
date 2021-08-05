@@ -1,0 +1,11 @@
+.resume a {
+    margin: 10px 0px;
+}
+
+.resume__backend {
+    margin-top: 20px;
+}
+
+.frontend__details li, .backend__details li {
+    margin: 6px 0px;
+}

@@ -1,0 +1,10 @@
+.aboutMe p {
+    line-height: 2;
+    margin: 10px 0px;
+    margin-bottom: 40px;
+}
+
+.aboutMe img {
+    object-fit: contain;
+    height: 200px;
+}

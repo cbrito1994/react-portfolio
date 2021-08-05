@@ -1,0 +1,11 @@
+.app {
+  text-align: center;
+}
+
+.contact, .portfolio, .aboutMe, .resume {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 40px;
+  margin-top: 26px;
+}

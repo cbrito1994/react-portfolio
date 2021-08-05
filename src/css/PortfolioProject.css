@@ -1,0 +1,62 @@
+.portfolioProjects {
+    position: relative;
+    min-width: 300px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 200px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+.mainPicture {
+    background-image: url("../assets/Covid-Tracker.PNG");
+}
+
+.secondPic {
+    background-image: url("../assets/Password-Generator.PNG");
+}
+
+.thirdPic {
+    background-image: url("../assets/Hockey-Quiz.PNG");
+}
+
+.portfolioProjects__overlay {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    transition: all 0.4s ease-in-out;
+}
+
+.portfolioProjects__overlay:hover {
+    background-color: thistle;
+    opacity: 0.6;
+}
+
+.pictures__info {
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.portfolioProjects__overlay:hover .pictures__info {
+    visibility: visible;
+    opacity: 1;
+}
+
+.pictures__info p {
+    margin: 10px 0px;
+}
+
+.pictures__info .MuiSvgIcon-root {
+    font-size: 50px;
+}
+
+.pictures__info .MuiSvgIcon-root:hover {
+    color: purple;
+    cursor: pointer;
+}

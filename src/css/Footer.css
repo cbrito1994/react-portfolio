@@ -1,0 +1,10 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: thistle;
+
+    /* estas ultimas lineas las agregue pq en el cambio de pagina, se llegaba a ver el footer en medio en lo que se cargaba el javascript */
+    position: relative;
+    bottom: 0;
+}
+
